@@ -17,4 +17,4 @@ case $1 in
         fi
         ;;
 esac
-playerctl --player=spotify volume "$newvol"
+playerctl --player="$player" volume "$newvol"
